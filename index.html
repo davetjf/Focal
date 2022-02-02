@@ -1,0 +1,41 @@
+    <!-- OBVIOUSLY A SHAMELESS COPY OF THE ORIGINAL WORDLE - ALL CREDIT TO THE OG CREATOR -->
+    <!-- This version in particular is a shamless copy of a shameless copy. Translated from here (https://github.com/gordonmaloney/facle) and replaced guessable words with Irish only words  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <title>Focal - cluiche focal laethúil</title>
+    <meta name="description" content="Guess the hidden word in 6 tries. A new puzzle is available each day.">
+    <link rel="stylesheet" type="text/css" href="main.style.css">
+    <!-- FB Meta Tags -->
+    <meta property="og:url" content="https://www.powerlanguage.co.uk/wordle/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Focal - Cluiche focal laethúil">
+    <meta property="og:description" content="Déan iarracht an focal a thomhas.">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="powerlanguage.co.uk">
+
+    <meta name="theme-color" content="#6aaa64" />
+    <link rel="manifest" href="manifest.json" />
+    <link href="images/wordle_logo_32x32.png" rel="icon shortcut" sizes="3232" />
+    <link href="images/wordle_logo_192x192.png" rel="apple-touch-icon" />
+
+ </head>
+  <body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SSGMHY3NP"></script>
+    <script>
+      (function () {
+        // Defining the hash before the main bundle allows the bundle access window.hash
+        window.wordle = window.wordle || {};
+        window.wordle.hash = 'c1506a22';
+      })();
+    </script>
+    <script src="main.script.js"></script>
+    <game-app></game-app>
+  </body>
+</html>
