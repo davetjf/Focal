@@ -15,4 +15,5 @@ https://davetjf.github.io/Focal/
   * Statstics - done
   * Settings
   * Win/Fail - done
+  * Hard Mode
 
