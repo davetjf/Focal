@@ -7,7 +7,7 @@
 https://davetjf.github.io/Focal/
 
 ### Still to do...
-* Make word list random at source
+* Make word list random at source - done
 * Language translation on sub menu's
   * Statstics
   * Settings
