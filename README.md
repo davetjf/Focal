@@ -2,6 +2,7 @@
 * WORDLE clone translated to Irish
 * Focal is a direct clone of Facle - https://github.com/gordonmaloney/facle 
 * Only 5 letter Irish words included
+* 987 Words
 
 # Link to play 
 https://davetjf.github.io/Focal/
